@@ -4,14 +4,8 @@
 
 ---@type ChadrcConfig
 local M = {}
-
-M.base46 = {
-	theme = "onedark",
-
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
-}
+M.ui = {theme = 'catppuccin'}
+M.plugins = "custom.plugins"
 
 return M
+
